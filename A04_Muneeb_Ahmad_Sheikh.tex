@@ -1,0 +1,104 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+\title{ASSIGNMENT 04}
+\author{Muneeb Ahmad Sheikh}
+\date{\today}
+\maketitle
+
+\begin{itemize}
+\item{\textbf{Questions:}}\\
+
+\item{\textit{Exercise:2.20:}}\\
+
+Find the value of p so that the three lines \[ \begin{pmatrix} 3 & 1\end{pmatrix}x =2\] \[ \begin{pmatrix} p & 2\end{pmatrix}x=3\] and \[ \begin{pmatrix} 2 & -1\end{pmatrix}x=3\] may intersect at one point.
+
+\item{\textbf{Solution:}}\\
+
+Given,\\
+ three lines \[ \begin{pmatrix} 3 & 1\end{pmatrix}x =2\] \[ \begin{pmatrix} p & 2\end{pmatrix}x=3\] and \[ \begin{pmatrix} 2 & -1\end{pmatrix}x=3\]\\
+ 
+Now,\\
+\[
+
+\hspace{2 cm}Augmented \hspace{0.1}matrix=
+\begin{pmatrix} 3 & 1 & : 2\\ p & 2 & : 3\\ 2 & -1 & : 3\end{pmatrix}\]\\
+  
+For the three lines to intersect at a unique point, determinent shouldn't be equal to 0.\\
+
+\therefore{}& \hspace{2 cm}\[ \begin{vmatrix} 3 & 1 & : 2\\ p & 2 & : 3\\ 2 & -1 & : 3\end{vmatrix} \hspace{0.2 cm}$\not=$\hspace{0.2 cm}0 \]
+
+ \hspace{2 cm}$3(6+3)-1(3p-6)+2(-p-4)\hspace{0.2 cm}$\not=$\hspace{0.2 cm}0$\\
+
+ \hspace{2 cm}$27-3p+6-2p-8\hspace{0.2 cm}$\not=$\hspace{0.2 cm}0$\\
+
+ \hspace{2 cm}$25-5p\hspace{0.2 cm}$\not=$\hspace{0.2 cm}0$\\
+
+ \hspace{2 cm}$p\hspace{0.2 cm}$\not=$\hspace{0.2 cm}5$\\
+ 
+\item{\textit{Exercise:2.22:}}\\
+
+If  the  lines \[ \begin{pmatrix} -3 & 1\end{pmatrix}x =1\] \[ \begin{pmatrix} -1 & 2\end{pmatrix}x=3\]are equally inclined to the line \[ \begin{pmatrix} -m & 1\end{pmatrix}x=4\] find the value of m.
+
+\item{\textbf{Solution:}}\\
+
+Given lines,\\
+
+\[l_1: \begin{pmatrix} -3 & 1\end{pmatrix}x =1\]
+\[l_2: \begin{pmatrix} -1 & 2\end{pmatrix}x=3\] 
+
+are equally inclined to a line,\\
+
+\[l_3: \begin{pmatrix} -m & 1\end{pmatrix}x=4\]
+
+Now,\\
+
+\[n_3= \begin{pmatrix} -m \\ 1\end{pmatrix}\]
+
+or,\\
+
+\[m_3= \begin{pmatrix} -1 \\ -m \end{pmatrix}\]\\
+
+\therefore{}& \hspace{4 cm}$slope=m$\\
+
+\[n_2= \begin{pmatrix} -1 \\ 2\end{pmatrix}\]
+
+or,\\
+
+\[m_2= \begin{pmatrix} -2 \\ -1 \end{pmatrix}\]\\
+
+\therefore{}& \hspace{4 cm}$slope=1/2$\\
+
+
+\[n_1= \begin{pmatrix} -3 \\ 1\end{pmatrix}\]
+
+or,\\
+
+\[m_1= \begin{pmatrix} -1 \\ -3 \end{pmatrix}\]\\
+
+\therefore{}& \hspace{4 cm}$slope=3$\\
+\newpage
+Let, $m=tan{\theta}$ and  'a' is inclination of lines from the given line.\\
+then,\\
+$
+
+{\theta}+a=tan^{-1}3$ \hspace{2 cm}and \hspace{2 cm}${\theta}-a=tan^{-1}1/2\\
+
+
+\hspace{3 cm}2{\theta}=tan^{-1}3+tan^{-1}1/2\\
+
+\hspace{3 cm}{\theta}= (71.56+26.56)/2\\
+
+\therefore{}& \hspace{3 cm}{\theta}= 49.06\\
+
+\hspace{3 cm}m=tan{\theta}\\
+
+\hspace{3 cm}m=tan(49.06)\\
+
+\therefore{}& \hspace{3 cm}m=1.15
+$
+\end{itemize}
+\end{document}
